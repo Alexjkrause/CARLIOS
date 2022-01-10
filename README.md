@@ -9,7 +9,7 @@ CARLIOS.m  <- This file contains all of the forcings and equations
 
 CARLIOS_frontend.m  <- This file contains the ODE solver, start states for the differential equations, various model constants, Monte Carlo information, and post model run processing of data from a 'working' state to an 'intermediate' state ready for statistical analysis in the montecarlo file
 
-CARLIOS_montecarlo.m  <- The model must be run from this file - it contains information for the parallel loop, which enables MATLAB to utilise all of your computer cores for model runs. This file also contains code for plotting some (but not all) of the figures in the paper. Change n if you want to increase/decrease the number of model runs, n = 1 will perform 1 model run, n = 2 will do 2, etc.
+CARLIOS_montecarlo.m  <- The model must be run from this file - it contains information for the parallel loop, which enables MATLAB to utilise all of your computer cores for model runs. It contains the code for running statistics on the model runs to produce, for example, a mean value for all the runs combined. This file also contains code for plotting some (but not all) of the figures in the paper. Change n if you want to increase/decrease the number of model runs, n = 1 will perform 1 model run, n = 2 will do 2, etc.
 
 site_data  <- This contains data from sites 1263 and U1333 for plotting
 
