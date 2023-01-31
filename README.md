@@ -1,7 +1,7 @@
-# This is a Monte Carlo version of the CARLIOS model, as used in the paper Krause et al.
+# This is a Monte Carlo version of the CARLIOS model, as used in the paper Krause et al. (in revision with Nature Geoscience)
 
 This model is an adaptation of the CARMER model by Dal Corso et al. (2020), which is a box model of the Earth system, including a crust, 3 ocean boxes, and an atmosphere.
-In CARLIOS the Hg cycle is removed, and Li, Os and Si cycles are included. 
+In CARLIOS the Hg cycle is removed, and Li, Os and Si cycles are included, as well as a few other changes. 
 
 CARLIOS was created to investigate the Middle Eocene Climatic Optimum event (~40.5 - 40 Ma). There are a number of files included in this package:
 
@@ -22,3 +22,5 @@ proxy_data  <- This contains some of the proxy data from other sources used for 
 
 
 The three script files have pretty extensive comments about what each line of code is/does, but any questions can be sent to a.krause@ucl.ac.uk (until Dec 2023).
+
+Also included in this bundle is an Excel file which contains Tables S1-6 from the paper, which includes the tiepoints for the new age model, geochemical data from this study, and the proxy data (CO2, temperature, pH) from Henehan et al. (2020) updated to the 2020 GTS.
