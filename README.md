@@ -1,4 +1,5 @@
 # This is a Monte Carlo version of the CARLIOS model, as used in the paper Krause et al. (in revision with Nature Geoscience)
+<a href="https://zenodo.org/badge/latestdoi/245200187"><img src="https://zenodo.org/badge/245200187.svg" alt="DOI"></a>
 
 This model is an adaptation of the CARMER model by Dal Corso et al. (2020), which is a box model of the Earth system, including a crust, 3 ocean boxes, and an atmosphere.
 In CARLIOS the Hg cycle is removed, and Li, Os and Si cycles are included, as well as a few other changes. 
